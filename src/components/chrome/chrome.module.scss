@@ -1,32 +1,5 @@
 .guidePage {
-  padding: 0;
-}
-
-.guideSideNav {
-  width: 260px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-
-  @media only screen and (max-width: 574px) {
-    position: static;
-    width: auto;
-    margin-right: 0;
-  }
-
-  .guideSideNav__content {
-    width: 260px;
-    padding: 0 16px;
-
-    @media only screen and (max-width: 574px) {
-      position: relative;
-      width: auto;
-      top: auto;
-      bottom: auto;
-      padding: 0;
-      overflow-y: hidden;
-    }
-  }
+  padding: 2rem 8rem;
 }
 
 .guidePageContent {
